@@ -152,21 +152,30 @@ body {
 }
 .bottom {
 	display: flex;
+	flex-direction: row;
 	background-color: var(--navyblue);
-	flex-direction: column;
 	padding-top: 101.5px;
 	padding-bottom: 100px;
-}
-.text-bottom {
 	color: var(--cloud);
+	gap: 120px;
+}
+.bottom-items-one {
+	display: flex;
+	flex-direction: column;
+	gap: 17.5px;
 	width: 264px;
+}
+.bottom-items-two {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	width: 208px;
 }
 .logo-bottom {
 	font-family: "Raleway", sans-serif;
 	font-size: 18px;
 	font-weight: 800;
 	text-decoration: none;
-	margin-bottom: 17.5px;
 }
 .hero {
 	color: var(--cloud);
@@ -179,6 +188,7 @@ body {
 }
 .bg-hero {
 	display: flex;
+	justify-content: center;
 	max-width: 1600px;
 	background-color: var(--navybluemodal);
 	background-image: radial-gradient(
@@ -188,8 +198,6 @@ body {
 		),
 		url("../images/mainpage/bghero.jpg");
 	background-size: cover, cover;
-	background-position: center, center;
-	background-repeat: repeat-x, repeat-x;
 }
 .text-hero {
 	font-size: 56px;
@@ -300,17 +308,23 @@ body {
 	width: 232px;
 	margin-bottom: 32px;
 }
-.team-icons {
+.social-icons {
 	display: flex;
 	box-sizing: content-box;
 	width: 40px;
 	height: 40px;
 }
-.team-list-icons {
+.social-list-icons {
 	display: flex;
 	justify-content: center;
 	list-style: none;
 	gap: 24px;
+}
+.social-list-icons-bottom {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	gap: 16px;
 }
 .customers-header {
 	font-family: "Roboto", sans-serif;
