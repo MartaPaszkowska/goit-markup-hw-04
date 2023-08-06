@@ -170,12 +170,26 @@ body {
 }
 .hero {
 	color: var(--cloud);
-	flex-direction: column;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	gap: 48px;
 	padding-top: 188px;
 	padding-bottom: 188px;
+}
+.bg-hero {
+	display: flex;
+	max-width: 1600px;
+	background-color: var(--navybluemodal);
+	background-image: radial-gradient(
+			circle,
+			rgba(46, 47, 66, 0.7) 100%,
+			rgba(255, 255, 255, 0) 0%
+		),
+		url("../images/mainpage/bghero.jpg");
+	background-size: cover, cover;
+	background-position: center, center;
+	background-repeat: repeat-x, repeat-x;
 }
 .text-hero {
 	font-size: 56px;
@@ -209,6 +223,12 @@ body {
 	display: flex;
 	justify-content: center;
 	gap: 24px;
+}
+.feature-background {
+	width: 264px;
+	height: 112px;
+	border-radius: 4px;
+	background-color: var(--cloud);
 }
 .feature-item {
 	display: flex;
