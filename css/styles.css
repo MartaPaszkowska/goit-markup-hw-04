@@ -224,11 +224,13 @@ body {
 	justify-content: center;
 	gap: 24px;
 }
-.feature-background {
-	width: 264px;
-	height: 112px;
+.feature-icons {
+	box-sizing: content-box;
+	width: 64px;
+	height: 64px;
 	border-radius: 4px;
-	background-color: var(--cloud);
+	background-color: var(--cloud, #f4f4fd);
+	padding: 24px 100px;
 }
 .feature-item {
 	display: flex;
