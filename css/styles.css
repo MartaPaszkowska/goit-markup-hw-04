@@ -88,12 +88,14 @@ body {
 	color: var(--ocean);
 }
 .item-navi:hover,
-.item-navi:focus,
-.logo:hover,
-.logo:focus {
+.item-navi:focus {
 	color: var(--ocean);
 	text-decoration-line: underline;
 	border-radius: 2px;
+}
+.studio:hover,
+.web:focus {
+	cursor: pointer;
 }
 .menu {
 	margin-top: 96px;
@@ -373,10 +375,14 @@ body {
 	padding: 16px 32px;
 	border-radius: 4px;
 	border: 1px solid var(--lightslate);
+}
+.customers-icons-images {
 	fill: var(--lightslate);
+}
+.customers-icons-images:hover {
+	fill: var(--ocean);
 }
 .customers-icons:hover {
 	cursor: pointer;
 	border: 1px solid var(--ocean);
-	fill: var(--ocean);
 }
