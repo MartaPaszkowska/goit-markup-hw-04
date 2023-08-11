@@ -84,14 +84,10 @@ body {
 	text-decoration: none;
 }
 .item-contact:hover,
-.item-contact:focus {
-	color: var(--ocean);
-}
+.item-contact:focus,
 .item-navi:hover,
 .item-navi:focus {
 	color: var(--ocean);
-	text-decoration-line: underline;
-	border-radius: 2px;
 }
 .studio:hover,
 .web:focus {
@@ -113,7 +109,7 @@ body {
 	font-size: 16px;
 	border-radius: 4px;
 	padding: 12px 24px 12px 24px;
-	border: 1px solid var(--cornflower);
+	border: none;
 	text-align: center;
 }
 .item-menu:hover,
@@ -379,10 +375,12 @@ body {
 .customers-icons-images {
 	fill: var(--lightslate);
 }
-.customers-icons-images:hover {
+.customers-icons-images:hover,
+.customers-icons-images:focus {
 	fill: var(--ocean);
 }
-.customers-icons:hover {
+.customers-icons:hover,
+.customers-icons:focus {
 	cursor: pointer;
 	border: 1px solid var(--ocean);
 }
